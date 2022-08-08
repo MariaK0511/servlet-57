@@ -12,10 +12,12 @@
 </head>
 <body>
 <form action="/registration" method="post">
-    <input type="name" name="firstName" placeholder="First Name">
-    <input type="name" name="lastName" placeholder="Last Name">
-    <input type="text" name="email" placeholder="Email">
-    <input type="text" name="password" placeholder="Password">
+    <label>
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="password" placeholder="Password">
+    </label>
     <button>Submit</button>
 </form>
 <p>${registration}</p>
