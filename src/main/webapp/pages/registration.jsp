@@ -18,6 +18,6 @@
     <input type="text" name="password" placeholder="Password">
     <button>Submit</button>
 </form>
-<p>${requestScope.registration}</p>
+<p>${registration}</p>
 </body>
 </html>
